@@ -1,4 +1,5 @@
 import { Header } from "./components/Header"
+import { Tasks } from "./components/Tasks"
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <div>
         <Header/>
+        <Tasks/>
       </div>
     </>
   )
